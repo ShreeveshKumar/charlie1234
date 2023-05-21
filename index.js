@@ -1,21 +1,21 @@
 
-    var x = 10;
+    var x = 20;
     for(var i = 0;i<x;i++){
-    document.querySelectorAll(".grid-item")[i].style.backgroundColor='red';
+    document.querySelectorAll(".test")[i].style.backgroundColor='red';
     }
 
 
 
-var p = document.querySelector(".tseat").innerHTML;
-var q = document.querySelector(".aseat").innerHTML;
-var y = document.querySelector(".perseat").innerHTML;
+var total_seat = document.querySelector(".tseat").innerHTML;
+var avail_seat = document.querySelector(".aseat").innerHTML;
+var percent_seat = document.querySelector(".perseat").innerHTML;
 
 
 function result(){
-   console.log(p);
-   console.log(q);
-   var g = (q*100)/p;
-   console.log(g)
+   console.log(total_seat);
+   console.log(avail_seat);
+   var g = (avail_seat*100)/total_seat;
+   document.querySelector(".perseat").innerHTML=g.valueOf();
 
 }
 result();
