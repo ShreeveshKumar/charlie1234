@@ -1,5 +1,5 @@
 
-    var x = 20;
+    var x = 6;
     for(var i = 0;i<x;i++){
     document.querySelectorAll(".test")[i].style.backgroundColor='red';
     }
