@@ -1,7 +1,7 @@
 
     var x = 10;
     for(var i = 0;i<x;i++){
-    document.querySelectorAll(".child")[i].style.backgroundColor='red';
+    document.querySelectorAll(".grid-item")[i].style.backgroundColor='red';
     }
 
 
